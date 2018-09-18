@@ -1,0 +1,26 @@
+{
+  "name": "tache",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "done": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "created_at": {
+      "type": "date",
+      "required": false,
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
