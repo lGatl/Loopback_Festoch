@@ -17,7 +17,8 @@
     },
     "created_at": {
       "type": "date",
-      "required": false,
+      "required": false
+    }
   },
   "validations": [],
   "relations": {},
